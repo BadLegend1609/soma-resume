@@ -1,0 +1,86 @@
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(0,0,0,1) 36%, rgba(34,94,106,1) 100%);
+    font-family: "Montserrat";
+    text-align: center;
+    color: #8f8f8f
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    color: #8f8f89;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+
+  /* Containers */
+  
+  .container-fluid{
+    padding: 3.5% 7.5%;
+  }
+  
+
+   
+  /* Features Section */
+  
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    color: #8f8f8f;
+  }
+  
+  .feature-title:hover {
+    color: #fff;
+  }
+
+  .feature-box {
+    padding: 1.5%;
+  }
+  .icon {
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #fff;
+  }
+
+.image{
+    padding-left: 3rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.info {
+    padding: 1.5rem 1rem 0 1rem;
+    text-align: left;
+    width: 100%
+}
+.footer {
+    text-align: center;
+    padding: 2rem
+}
+.text-info {
+  padding: auto;
+}
+
+@media (max-width: 990px) {
+    .info {
+        text-align: center;
+        width: 25rem;
+        margin: auto;
+    }
+}
